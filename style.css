@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: roboto;
+
+}
+
+.menu {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #011556;
+    padding: 0 15px;
+}
+
+.menu h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #011555;
+}
+
+.support {
+    background: url(imgs/bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 825px;
+}
+
+.toshkent {
+    width: 860px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.toshkent h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: #626262;
+
+}
+
+.toshkent p {
+    font-weight: lighter;
+    font-size: 16px;
+    width: 665px;
+    margin: auto;
+}
+
+.toshkent h1 .span {
+    font-weight: bold;
+    color: #011556;
+}
+
+.sign-up {
+    width: 380px;
+    height: 390px;
+    margin: auto;
+    margin-top: 110px;
+    background: #fff;
+    padding: auto;
+    text-align: center;
+}
+
+.sign-up p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+    color: #011556;
+}
+
+.sign-up input {
+    width: 300px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: #a2a2a2;
+    border-bottom: 1px solid #a2a2a2;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.sign-up .sms {
+    margin-top: 10px;
+    height: 85px;
+}
+
+.sign-up .btn1 {
+    margin-top: 20px;
+    width: 240px;
+    height: 55px;
+    background: #011556;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+}
+
+/****** -Section- *******/
+.flag {
+    width: 100%;
+}
+
+.txt1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #011556;
+}
+
+.txt1 h1 {
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+.flags {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.flags a {
+    text-decoration: none;
+    color: #011556;
+    font-weight: 800;
+    border-bottom: 2px solid #011556;
+    font-size: 36px;
+}
+
+.txt2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 135px;
+    width: 750px;
+}
+
+.txt2 h1 {
+    font-size: 50px;
+    color: #011556;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.txt2 p {
+    width: 750px;
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/*******************DAVLATLAR***********************/
+
+.davlatlar {
+    width: 100%;
+}
+
+.bigboss {
+    background: #fbfbfb;
+
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+}
+
+.part1 .col-lg-4 {
+    background: url(imgs/img1.jpg);
+    margin-bottom: 23px;
+    margin-right: 23px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 360px;
+}
+
+.hide {
+    text-align: center;
+    color: #011556;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.part2 .col-lg-4 {
+    background: url(imgs/img2.jpg);
+    margin-bottom: 23px;
+    margin-right: 23px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 360px;
+    border: none;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.part3 .col-lg-4 {
+    background: url(imgs/img3.jpg);
+    margin-bottom: 23px;
+    margin-right: 23px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 360px;
+    border: none;
+    margin-bottom: 68px;
+}
+
+.hide {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #011556;
+    opacity: 0.0;
+    background: #dbdeec;
+}
+
+.hide h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 60px 0 30px 0
+}
+
+.hide p {
+    font-size: 14px;
+    line-height: 17px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.hide .btn2 {
+    width: 145px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    background: #011556;
+    color: #fff;
+    opacity: 1;
+}
+
+.davlatlar .col-lg-4:hover .hide {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.document {
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 280px;
+
+}
+
+.document h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #011556;
+    text-align: center;
+    margin: 70px 0 50px 0;
+}
+
+.document p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/**********ЛУЧШИЕ ТУРЫ**********/
+.buy {
+    background: #fbfbfb;
+}
+
+.buy .turizm h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #011556;
+    text-align: center;
+    padding: 70px 0 50px 0;
+}
+
+.buy .turizm p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    width: 710px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 155px;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+}
+
+.city .col-lg-4 {
+    background: url(imgs/city1.jpg);
+    background-size: cover;
+    width: 360px;
+    height: 450px;
+    margin: 0 28px 100px 30px;
+}
+
+.cost {
+    width: 260px;
+    height: 85px;
+    background: #fff;
+    margin: auto;
+    text-align: center;
+    line-height: 15px;
+    box-shadow: 0 0 10px #111;
+    transform: translateY(400px)
+}
+
+.cost h3 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cost p {
+    font-size: 22px;
+    color: #011556;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+/*******section end*********/
+
+/**********Footer Start*****/
+
+footer {
+    width: 100%;
+}
+
+.otzf {
+    margin: auto;
+    text-align: center;
+}
+
+.otzf h1 {
+    padding-top: 70px;
+    padding-bottom: 85px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #011556;
+}
+
+.otzf p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 50px;
+}
+.otzf2 .ovozlar  {
+    
+    justify-content: center;
+}
+.otzf2 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.otzf2 .cool {
+    box-shadow: 0 0 10px grey;
+    width: 540px;
+    height: 270px;
+    margin-left: 35px;
+
+}
+
+.otzf2 .cool .photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translateY(-50px);
+}
+.otzf2 .cool:nthchild(3){
+    margin-left: 35%;
+}
+.otzf2 .cool p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #4c4c4c;
+    padding: 0 45px;
+}
+
+.otzf2 .cool span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #111;
+    margin: 25px 0px 40px 0;
+}
+
+.otzf2 .cool .iconcha {
+    margin-bottom: 25px;
+}
+
+/***Ends ***/
+
+.the-end {
+    background: #f7f7f7;
+    margin: auto;
+    text-align: center;
+}
+
+.the-en {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.the-en i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    padding: 17px 0;
+    background: #d3d3d3;
+    color: #fff;
+    border: 1px solid #011556;
+    margin: 0 15px;
+    
+}
+.the-en i:hover {
+    box-shadow: 0 0 10px #011556;
+    background: #011556;
+}
+.the-en p {
+font-size: 17px;
+    font-weight: 400;
+    color: #040404;
+    padding: 10px 15px;
+}
+.the-end .btn3 {
+    margin-top: 70px;
+    width: 240px;
+    height: 55px;
+    border-radius: 50px;
+    color: #fff;
+    background: #011556;
+    border:none;
+}
+
+
